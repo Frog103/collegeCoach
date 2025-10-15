@@ -205,13 +205,23 @@ footer a:hover {
     padding: 0;
     color: gray;
 }
+.dCardTagContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 5px;
+    flex-wrap: wrap;
+}
 .dCardTags {
     background-color: rgb(213, 0, 0);
     font-size: 0.7rem;
     color: #222;
     padding: 3px 8px;
     border-radius: 12px;
-    display: inline-block;
+    display: grid;
+    width: fit-content;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     margin-top: 5px;
 }
 .dCardTags:hover {
