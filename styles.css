@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     overflow-x: hidden;
     transition: all 0.3s ease-in-out;
+    background-color: rgb(240, 240, 240);
 }
 @font-face {
     font-family: 'Inter';
@@ -168,4 +169,6 @@ footer a:hover {
 .contentCard .icon i {
     font-size: 1.5rem; 
 }
+/* Departments.html Main Content Style */
+
 
