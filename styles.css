@@ -198,3 +198,18 @@ footer a:hover {
     background-color: rgb(225, 225, 225);
     transition: all 0.3s ease-in-out;
 }
+.dCardText {
+    font-size: 1rem;
+    color: black;
+    margin-top: 10px;
+    line-height: 0.8rem;
+}
+.dcardTags {
+    background-color: tomato;
+    font-size: 0.7rem;
+    color: gray;
+    padding: 3px 8px;
+    border-radius: 12px;
+    display: inline-block;
+    margin-top: 5px;
+}
