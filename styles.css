@@ -177,6 +177,7 @@ footer a:hover {
     grid-template-columns: repeat(3, 1fr);
     gap: 12px;
     padding: 10px 5px;
+    margin-bottom: 50px;
 }
 
 .departmentShelf a {
@@ -213,7 +214,7 @@ footer a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 6px;
+    margin-top: 1px;
     gap: 4px;
     flex-wrap: wrap;
 }
@@ -224,7 +225,7 @@ footer a:hover {
     padding: 2px 7px;
     border-radius: 10px;
     display: inline-block;
-    margin-top: 3px;
+    margin-top: 1px;
     margin-right: 2px;
     margin-bottom: 2px;
     box-shadow: 0 1px 2px rgba(0,0,0,0.08);
