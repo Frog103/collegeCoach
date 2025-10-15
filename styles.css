@@ -199,10 +199,18 @@ footer a:hover {
     transition: all 0.3s ease-in-out;
 }
 .dCardText {
-    font-size: 1rem;
-    color: black;
-    margin-top: 10px;
+    margin-top: 2px;
     line-height: 0.8rem;
+}
+.dCardText h3 {
+    margin: 0;
+    padding: 0;
+}
+.dCardText p {
+    font-size: 0.8rem;
+    margin: 5px 0 0 0;
+    padding: 0;
+    color: gray;
 }
 .dcardTags {
     background-color: tomato;
@@ -212,4 +220,13 @@ footer a:hover {
     border-radius: 12px;
     display: inline-block;
     margin-top: 5px;
+}
+.dcCardTags p {
+    margin: 0;
+    padding: 0;
+}
+.dCardTags:hover {
+    background-color: rgb(213, 0, 0);
+    color: white;
+    transition: all 0.3s ease-in-out;
 }
