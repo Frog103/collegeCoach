@@ -11,7 +11,7 @@ body {
 }
 @font-face {
     font-family: 'Inter';
-    src: url(Inter-VariableFont_opsz,wght.ttf);
+    src: url(fonts/Inter-VariableFont_opsz\,wght.ttf) format('truetype');
 }
 /* Header and Footer Styles */
 header {
@@ -101,7 +101,7 @@ footer a:hover {
     display: block;
 }
 
-/* Main Content Style */
+/* Index.html Main Content Style */
 .contentMenuContainer {
     background-color: white;
     padding: 20px;
