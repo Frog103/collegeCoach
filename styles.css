@@ -178,6 +178,7 @@ footer a:hover {
     gap: 20px;
     padding: 20px;
 }
+
 .departmentShelf a {
     text-decoration: none;
     color: inherit;
@@ -201,30 +202,17 @@ footer a:hover {
 }
 .dCardText {
     margin-top: 2px;
-    line-height: 0.8rem;
-}
-.dCardText h3 {
-    margin: 0;
-    padding: 0;
-}
-.dCardText p {
-    font-size: 0.8rem;
-    margin: 5px 0 0 0;
     padding: 0;
     color: gray;
 }
 .dcardTags {
-    background-color: tomato;
+    background-color: rgb(213, 0, 0);
     font-size: 0.7rem;
-    color: gray;
+    color: #222;
     padding: 3px 8px;
     border-radius: 12px;
     display: inline-block;
     margin-top: 5px;
-}
-.dcCardTags p {
-    margin: 0;
-    padding: 0;
 }
 .dCardTags:hover {
     background-color: rgb(213, 0, 0);
