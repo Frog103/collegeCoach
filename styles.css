@@ -14,6 +14,7 @@ body {
     font-family: 'Inter';
     src: url(fonts/Inter-VariableFont_opsz\,wght.ttf) format('truetype');
 }
+
 /* Header and Footer Styles */
 header {
     background-color: white;
@@ -60,6 +61,7 @@ footer a:hover {
     color: rgb(186, 20, 20);
     transition: all 0.3s ease-in-out;
 }
+
 /* Dropdown Menu Style */
 .dropButton {
     background-color: white;
@@ -170,8 +172,8 @@ footer a:hover {
 .contentCard .icon i {
     font-size: 1.5rem; 
 }
-/* Departments.html Main Content Style */
 
+/* Departments.html Main Content Style */
 .departmentShelf {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -234,4 +236,74 @@ footer a:hover {
     background-color: #b00000;
     color: #fff;
     transition: background 0.2s, color 0.2s;
+}
+
+/* LearnTracks.html Main Content Style */
+.learnShelf {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 12px;
+    padding: 10px;
+}
+
+.learnCard {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.18);
+    padding: 12px;
+    transition: box-shadow 0.2s, background 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.learnCard:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.28);
+    background-color: #f2f2f2;
+}
+
+.learnCardRow1, .learnCardRow2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.lCardText {
+    font-size: 0.85rem;
+    color: #555;
+    margin: 2px;
+}
+
+.lCardTags {
+    background-color: #d50000;
+    font-size: 0.68rem;
+    color: #fff;
+    padding: 2px 7px;
+    border-radius: 10px;
+    margin: 2px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+}
+
+.learnProgressBar {
+    background-color: #e0e0e0;
+    border-radius: 3px;
+    height: 6px;
+    margin: 4px 0;
+    width: 100%;
+}
+
+.lCardButton button {
+    background-color: #d50000;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.lCardButton button:hover {
+    background-color: #b00000;
 }
