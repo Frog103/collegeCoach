@@ -244,7 +244,11 @@ footer a:hover {
     gap: 12px;
     padding: 10px;
 }
-
+.learnCategory {
+    grid-column: 1 / -1;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
 .learnCard {
     background-color: #fff;
     border-radius: 4px;
