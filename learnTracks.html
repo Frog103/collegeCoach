@@ -61,14 +61,14 @@
 
             <!--Learning Tracks Section-->
             <!--This section needs external JS to display as intended for every category. Elements below should be modular, probably. ;)-->
-            <div class="learnShelf">
-                <!--Each card should be organized by category first-->
-
+            <!--Each set of cards should be organized by category first-->
                 <div class="learnCategory">
                     <h2>Category Name</h2>
                     <p>Short description of the category.</p>
                 </div>
-                <!--Example Card-->
+            <!--Create one "learnshelf" division class for each category-->
+            <div class="learnShelf">
+                <!--List all content cards related to the parent category inside the learnShelf container-->
                     <div class="learnCard">
                         <!--Top Row-->
                         <div class="learnCardRow1">
@@ -109,12 +109,51 @@
                             </div>
                         </div>
                     </div>
-
-
-
-
-
             </div>
+
+
+            <div class="learnCategory">
+                <h2>Category Name</h2>
+                <p>Short description of the category.</p>
+            </div>
+            <div class="learnShelf">
+                    <div class="learnCard">
+                        <div class="learnCardRow1">
+                            <div class="lCardText">
+                                <h3>Class Title</h3>
+                            </div>
+                            <div class="icon">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <div class="lCardTags">
+                                <p>Expert</p>
+                            </div>
+                            <div class="lCardText">
+                                <p>Duration: #</p>
+                            </div>   
+                        </div>
+                        <div class="learnCardRow2">
+                            <div class="lCardText">
+                                <p>Progress</p>
+                            </div>
+                            <div class="lCardText">
+                                <p>#%</p>
+                            </div>
+                            <div class="learnProgressBar">
+                            </div>
+                            <div class="lCardText">
+                                <p># are currently enrolled.</p>
+                            </div>
+                            <div class="lCardButton">
+                                <a href ="#">
+                                    <button>Continue Learning</button> 
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
         <!--Footer-->
         <footer>
             <p>&copy; 2024 EmpressNETworks LLC. All rights reserved.</p>
