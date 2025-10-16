@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     overflow-x: hidden;
     transition: all 0.3s ease-in-out;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(247, 247, 247);
 }
 @font-face {
     font-family: 'Inter';
@@ -106,7 +106,6 @@ footer a:hover {
 
 /* Index.html Main Content Style */
 .contentMenuContainer {
-    background-color: white;
     padding: 20px;
     overflow-y: auto;
 }
