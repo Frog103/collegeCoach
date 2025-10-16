@@ -325,6 +325,7 @@ footer a:hover {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    margin-bottom: 80px;
 }
 
 .chatBox {
@@ -332,7 +333,7 @@ footer a:hover {
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.18);
     width: 100%;
-    max-width: 600px;
+    max-width: 825px;
     display: flex;
     flex-direction: column;
     height: 500px;
