@@ -381,3 +381,125 @@ footer a:hover {
 #sendButton:hover {
     background-color: #b00000;
 }
+
+/* class.html Main Content Style */
+
+.courseContentDivider {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
+.courseContentBox1, .courseContentBox2 {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.18);
+    padding: 20px;
+    transition: box-shadow 0.2s, background 0.2s;
+}
+
+.courseContentBox1:hover, .courseContentBox2:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.28);
+    background-color: #f2f2f2;
+}
+
+.cTitleText {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #d50000;
+}
+
+.cTitleSubText {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 5px;
+}
+
+.cInfoBox {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.cInfoText {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.cInfoImage img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.cInfoVideo video {
+    width: 100%;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.cContentList {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.cContentList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cContentList li {
+    padding: 12px 15px;
+    margin: 5px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cContentList li:hover {
+    background-color: #d50000;
+    color: #fff;
+    transform: translateX(5px);
+}
+
+@media (max-width: 768px) {
+    .courseContentDivider {
+        grid-template-columns: 1fr;
+    }
+    
+    .courseContentBox2 {
+        margin-top: 20px;
+    }
+    
+    .cTitleText {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .courseContentDivider {
+        padding: 10px;
+    }
+    
+    .courseContentBox1, .courseContentBox2 {
+        padding: 15px;
+    }
+    
+    .cInfoText {
+        font-size: 0.85rem;
+    }
+}
+
