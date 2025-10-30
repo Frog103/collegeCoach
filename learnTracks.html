@@ -61,16 +61,19 @@
 
             <!--Learning Tracks Section-->
             <!--This section needs external JS to display as intended for every category. Elements below should be modular, probably. ;)-->
-            <!--Each set of cards should be organized by category first-->
+            <!--Each set of cards related to the parent department chosen in departments.html should be organized & labeled by category first-->
                 <div class="learnCategory">
                     <h2>Category Name</h2>
                     <p>Short description of the category.</p>
                 </div>
-            <!--Create one "learnshelf" division class for each category-->
+            <!--Create one "learnshelf" class for each category-->
             <div class="learnShelf">
                 <!--List all content cards related to the parent category inside the learnShelf container-->
                     <div class="learnCard">
-                        <!--Top Row-->
+                        <!--The CSS styling splits the visual display of the card into two rows, 
+                        the first displays static information, and the bottom displays dynamic information.-->
+
+                        <!--Top Row of Card-->
                         <div class="learnCardRow1">
                             <div class="icon">
                                 <i class="fa-solid fa-graduation-cap"></i>
@@ -87,7 +90,7 @@
                             </div>   
                         </div>
 
-                        <!--Bottom Row-->
+                        <!--Bottom Row of Card-->
                         <div class="learnCardRow2">
                             <div class="lCardText">
                                 <p>Progress</p>
@@ -97,14 +100,15 @@
                             </div>
 
                             <div class="learnProgressBar">
-                                <!--I don't know what to put here.-->
+                                <!--Needs JS, but I don't know what to put here as a placeholder.-->
                             </div>
                             <div class="lCardText">
                                 <p># are currently enrolled.</p>
                             </div>
                             <div class="lCardButton">
-                                <a href ="#">
-                                    <button>Continue Learning</button> 
+                                <!-- The href link should always direct to class.html, where the course's content can be loaded dynamically on a single page with JS-->
+                                <a href ="class.html">
+                                    <button>Start Course</button> 
                                 </a>
                             </div>
                         </div>
@@ -146,8 +150,8 @@
                                 <p># are currently enrolled.</p>
                             </div>
                             <div class="lCardButton">
-                                <a href ="#">
-                                    <button>Continue Learning</button> 
+                                <a href ="class.html">
+                                    <button>Start Course</button> 
                                 </a>
                             </div>
                         </div>
