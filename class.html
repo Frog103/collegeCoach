@@ -52,13 +52,60 @@
         -->
 
         <!--Main Content Area-->
-        <div class="contentMenuContainer">
+        <div class="classContentContainer">
 
-            <!--Welcome Message-->
-            <div class="contentMenuHeader">
-                <h2>Welcome Message</h2>
-                <p>Header Caption</p>   
+            <!--After selecting a course in learntracks.html the user will be directed here.
+            The course's content will be divided into two columns, the first displays static information that contain's the class's content, 
+            including text, images, and videos.-->
+            <div class="courseContentDivider">
+                <!-- Content is loaded dynamically here-->
+
+                <div class="courseContentBox1">
+                    <!--Course Title and Description-->
+                    <div class="cTitleText">
+                        Course Title
+                        <span class="cTitleSubText">
+                        Description
+                        </span>
+                    </div>
+                    <!--Course Information-->
+                    <div class="cInfoBox">
+                        <div class="cInfoText">
+                            <!-- This is where the full text of the course's content will show-->
+                            <p>placeholder text</p>
+                        </div>
+                        <div class="cInfoImage">
+                            <!--images will load within this class, can and should be inserted within cInfoText containers when necessary.-->
+                            <img src="https://via.placeholder.com/100" alt="Course Image">
+                        </div>
+                        <div class="cInfoVideo">
+                            <!-- video content will load within this class, can and should be inserted within cInfoText containers when necessary.-->
+                            <video controls>
+                                <source src="https://via.placeholder.com/100" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+                <!--The second column will act as a nav bar that contains the functionality that will allow the user to switch 
+                between the different categories within the course.-->
+                <div class="courseContentBox2">
+                    <div class="cTitleText">
+                        Course Content
+                    </div>
+                    <div class="cContentList">
+                        <!--List Topics should load dynamically-->
+                        <ul>
+                            <li>Topic 1: Introduction</li>
+                            <li>Topic 2: Advanced Concepts</li>
+                            <li>Topic 3: Practical Applications</li>
+                            <li>Topic 4: Summary and Review</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+        </div>
 
         <!--Footer-->
         <footer>
