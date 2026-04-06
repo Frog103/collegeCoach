@@ -1,0 +1,1 @@
+Put images in this folder, and further organize by additional folders for each department AND course category. This is where all the images used in the application will be stored, such as icons, course images, and any other visual assets needed for the UI.

@@ -1,0 +1,197 @@
+/* Learning tracks page */
+.learnCategory {
+    width: 100%;
+    margin-top: 1.7rem;
+    margin-bottom: 1rem;
+    padding: 1rem 1.2rem;
+    background: linear-gradient(135deg, rgba(200, 0, 0, 0.07), rgba(255, 255, 255, 0.95));
+    border: 1px solid rgba(200, 0, 0, 0.12);
+    border-radius: 20px;
+}
+
+.learnCategory h2 {
+    margin: 0 0 0.35rem;
+    font-size: 1.2rem;
+}
+
+.learnCategory p {
+    margin: 0;
+    color: var(--text-soft);
+}
+
+.learnShelf {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.4rem;
+}
+
+.learnShelf:last-of-type {
+    margin-bottom: 0;
+}
+
+.learnCard {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.2rem;
+    background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+    border: 1px solid var(--border);
+    border-radius: 22px;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.learnCard:hover {
+    transform: translateY(-4px);
+    border-color: rgba(200, 0, 0, 0.24);
+    box-shadow: var(--shadow-md);
+}
+
+.learnCardRow1,
+.learnCardRow2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.learnCardRow1 {
+    align-items: flex-start;
+}
+
+.learnCardRow1 .icon {
+    width: 2.85rem;
+    height: 2.85rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    background: var(--accent-soft);
+    font-size: 1.2rem;
+    flex: 0 0 auto;
+}
+
+.learnCardRow1 .lCardText:first-of-type {
+    flex: 1 1 12rem;
+}
+
+.lCardText {
+    margin: 0;
+    color: var(--text-soft);
+}
+
+.lCardText h3,
+.lCardText p {
+    margin: 0;
+}
+
+.lCardText h3 {
+    color: var(--text);
+    font-size: 1.05rem;
+    line-height: 1.35;
+}
+
+.lCardText p {
+    line-height: 1.55;
+}
+
+.lCardTags {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.4rem 0.75rem;
+    background: var(--accent);
+    color: #ffffff;
+    border-radius: 999px;
+    box-shadow: 0 6px 14px rgba(200, 0, 0, 0.18);
+}
+
+.lCardTags p {
+    margin: 0;
+    font-size: 0.75rem;
+    line-height: 1;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.learnProgressBar {
+    width: 100%;
+    height: 0.6rem;
+    border-radius: 999px;
+    background: linear-gradient(90deg, rgba(200, 0, 0, 0.18) 0%, rgba(200, 0, 0, 0.18) 45%, #e1e7ef 45%, #e1e7ef 100%);
+    overflow: hidden;
+}
+
+.lCardButton {
+    margin-left: auto;
+}
+
+.lCardButton a {
+    text-decoration: none;
+}
+
+.lCardButton button {
+    padding: 0.7rem 1rem;
+    background: var(--accent);
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(200, 0, 0, 0.18);
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.lCardButton button:hover {
+    background: var(--accent-dark);
+    transform: translateY(-1px);
+}
+
+@media (max-width: 1200px) {
+    .learnShelf {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 1080px) {
+    .learnCard {
+        padding: 1.1rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .learnShelf {
+        grid-template-columns: 1fr;
+    }
+
+    .learnCategory {
+        margin-top: 1.4rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .learnCardRow1 .icon {
+        width: 2.7rem;
+        height: 2.7rem;
+    }
+
+    .lCardButton {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .lCardButton button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .learnCategory,
+    .learnCard {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .lCardText h3 {
+        font-size: 1rem;
+    }
+}

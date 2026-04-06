@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--JS Dynamically loads title of selected course here.-->
+    <!--Script dynamically loads title of selected course here.-->
     <title>Placeholder Title Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/class.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -36,21 +37,6 @@
         </div>
     </header>
     <main>
-        <!--Sidebar Menu-->
-        <!--This part needs javascript & CSS, but I might remove it later depending on what the final layout looks like.
-        <div class="sidebarMenu">
-            <nav>
-                <ul>
-                    <li><a href="#">Dashboard</a></li>
-                    <li><a href="#">Departments</a></li>
-                    <li><a href="#">Learning Tracks</a></li>
-                    <li><a href="#">AI Chat</a></li>
-                    <li><a href="#">Support</a></li>
-                </ul>
-            </nav>
-        </div>
-        -->
-
         <!--Main Content Area-->
         <div class="classContentContainer">
 
@@ -59,6 +45,30 @@
             including text, images, and videos.-->
             <div class="courseContentDivider">
                 <!-- Content is loaded dynamically here-->
+
+                <!--The second column will act as a nav bar that contains the functionality that will allow the user to switch 
+                between the different categories within the course.-->
+                <!--Edit: VVV
+                This is technically the first column now. I had to move it above the course content so that it sits on top of the page
+                on mobile views :P -->
+                <div class="courseContentBox2">
+                    <div class="cTitleText">
+                        Course Content
+                    </div>
+                    <div class="cContentList">
+                        <!--List Topics should load automatically-->
+                        <!--additionally, clicking on a topic should autoscroll the user to the section-->
+                        <ul>
+                            <li>Topic 1: Introduction</li>
+                            <li>Topic 2: Advanced Concepts</li>
+                            <li>Topic 3: Practical Applications</li>
+                            <li>Topic 4: Summary and Review</li>
+                        <!--The Button Below should open a toggleable popup modal for an AI assistant that can provide commentary and assistance on the currently loaded content-->
+                        <!-- idk how to create a mockup for this though ;(-->
+                            <li>AI Assistant</li>
+                        </ul>
+                    </div>
+                </div>
 
                 <div class="courseContentBox1">
                     <!--Course Title and Description-->
@@ -108,26 +118,6 @@
                              <!-- the link below is a placeholder.-->
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/Z-K2mS2SG6M?si=NEaHIL0cURghbBP-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
-                    </div>
-                </div>
-
-                <!--The second column will act as a nav bar that contains the functionality that will allow the user to switch 
-                between the different categories within the course.-->
-                <div class="courseContentBox2">
-                    <div class="cTitleText">
-                        Course Content
-                    </div>
-                    <div class="cContentList">
-                        <!--List Topics should load dynamically-->
-                        <ul>
-                            <li>Topic 1: Introduction</li>
-                            <li>Topic 2: Advanced Concepts</li>
-                            <li>Topic 3: Practical Applications</li>
-                            <li>Topic 4: Summary and Review</li>
-                        <!--The Button Below should open a toggleable modal for an AI assistant that can provide commentary on the currently loaded content-->
-                        <!-- idk how to create a template for this though ;(-->
-                            <li>AI Assistant</li>
-                        </ul>
                     </div>
                 </div>
             </div>

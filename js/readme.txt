@@ -1,0 +1,1 @@
+Put JS script files in this folder, and further organize by additional folders for each department AND course category. This is where the dynamic content loading and AI assistant functionality will be implemented.
