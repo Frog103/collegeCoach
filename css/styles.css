@@ -26,6 +26,21 @@
     --content-max: 1200px;
     --gutter: clamp(1rem, 2vw, 2rem);
 }
+:root[data-theme="dark"] {
+    --bg: #1a1f24;
+    --surface: #22272e;
+    --surface-soft: #2d333b;
+    --surface-muted: #2d333b;
+    --text: #c9d1d9;
+    --text-soft: #8b949e;
+    --border: #30363d;
+    --border-strong: #21262d;
+    --accent: #ff6e64;
+    --accent-dark: #ff3a1f;
+    --accent-soft: rgba(255, 110, 100, 0.08);
+    --shadow-sm: 0 10px 24px rgba(0, 0, 0, 0.12);
+    --shadow-md: 0 16px 32px rgba(0, 0, 0, 0.18);
+}
 /* use the variables above when styling elements.*/
 
 *,
