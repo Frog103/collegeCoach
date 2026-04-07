@@ -6,7 +6,7 @@
     font-display: swap;
 }
 
-:root {
+:root [data-theme="light"] {
     --bg: #f4f6f8;
     --surface: #ffffff;
     --surface-soft: #fafbfc;
@@ -26,7 +26,7 @@
     --content-max: 1200px;
     --gutter: clamp(1rem, 2vw, 2rem);
 }
-:root[data-theme="dark"] {
+:root [data-theme="dark"] {
     --bg: #1a1f24;
     --surface: #22272e;
     --surface-soft: #2d333b;
