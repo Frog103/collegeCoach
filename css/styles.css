@@ -89,6 +89,8 @@ header {
     border-bottom: 1px solid rgba(216, 223, 231, 0.85);
     backdrop-filter: blur(14px);
     box-shadow: 0 8px 24px rgba(22, 32, 42, 0.06);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .dropdownMenu {
